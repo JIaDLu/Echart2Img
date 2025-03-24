@@ -12,7 +12,7 @@
 ```bash
 git clone https://github.com/JIaDLu/Echarts-NodeJs-Server.git
 
-cd Echarts2Img
+cd Echarts-NodeJs-Server/
 
 npm install
 
