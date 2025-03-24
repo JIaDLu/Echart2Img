@@ -1,2 +1,8 @@
 # Echart2Img
-build the latest and simplest way to export images from echarts using node server. you can use in most programming, such as python and Java.
+*build the latest and most straightforward way to export images from echarts using a node server. You can use it in most programming languages, such as Python and Java.*
+
+## function visualisation 
+
+![image-20250324094543380](https://cdn.jsdelivr.net/gh/JIaDLu/BlogImg/img/202503240945444.png)
+
+![image-20250324094552133](https://cdn.jsdelivr.net/gh/JIaDLu/BlogImg/img/202503240945187.png)
