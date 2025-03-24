@@ -10,7 +10,7 @@
 ## How to build
 
 ```bash
-git clone https://github.com/JIaDLu/Echarts2Img.git
+git clone https://github.com/JIaDLu/Echarts-NodeJs-Server.git
 
 cd Echarts2Img
 

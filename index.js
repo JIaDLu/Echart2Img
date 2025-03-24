@@ -12,11 +12,19 @@ app.post('/render', (req, res) => {
     const width = config.width || 800;
     const height = config.height || 600;
     
-    // 初始化 ECharts 实例，指定使用 canvas renderer
-    const chart = echarts.init(null, null, { renderer: 'svg', width:width, height:height, ssr: true });
+    //  In SSR mode the first container parameter is not required
+    const chart = echarts.init(null, null, { 
+      renderer: 'svg', 
+      width:width, 
+      height:height, 
+      ssr: true 
+    });
+    
+    // use setOption as normal
     chart.setOption(config);
     
-    const dataURL = chart.renderToSVGString()
+    // Output a string
+    const dataURL = chart.renderToSVGString()   // Since 5.3.0
     
     res.json({ image: dataURL });
   } catch (err) {
