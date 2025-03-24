@@ -6,3 +6,26 @@
 ![image-20250324094543380](https://cdn.jsdelivr.net/gh/JIaDLu/BlogImg/img/202503240945444.png)
 
 ![image-20250324094552133](https://cdn.jsdelivr.net/gh/JIaDLu/BlogImg/img/202503240945187.png)
+
+## How to build
+
+```bash
+git clone https://github.com/JIaDLu/Echarts2Img.git
+
+cd Echarts2Img
+
+npm install
+
+node index.js / node start
+```
+
+
+
+## Contact
+
+lujiadong0243@gmail.com
+
+## License
+
+MIT
+
