@@ -16,7 +16,7 @@ cd Echarts-NodeJs-Server/
 
 npm install
 
-node index.js / node start
+npm start
 ```
 
 
